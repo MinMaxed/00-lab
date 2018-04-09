@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+From what I can tell, `let` has scoping deals, in that if you define it within a set of {}, it only really exists and can be referenced within the {}. `const` must be assigned to something with a value, and doesn't like to be in conditionals (ie; for, while, if statements). 
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+template literal notation feels very off to me, but I think that'll just take an adjustment period. the previous notation, while full of apparently unneccesary marks, was good for my brain in knowing what's happening. 
